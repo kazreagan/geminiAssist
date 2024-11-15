@@ -48,31 +48,7 @@ async function fetchGeminiResponse(query) {
                 console.error("Error fetching response:", error);
                 resolve("Error communicating with Gemini API");
             }
-            // if (!apiKey) {
-            //     console.error("API key not found.");
-            //     resolve("API key is missing. Please set the API key.");
-            //     return;
-            // }
-            // try {
-            //     const response = await fetch("https://api.gemini.com/ai/query", {
-            //         method: "POST",
-            //         headers: {
-            //             "Content-Type": "application/json",
-            //             "Authorization": `Bearer ${apiKey}`
-            //         },
-            //         body: JSON.stringify({ input: query })
-            //     });
-
-            //     if (!response.ok) {
-            //         throw new Error(`API returned status ${response.status}`);
-            //     }
-
-            //     const data = await response.json();
-            //     resolve(data.answer);
-            // } catch (error) {
-            //     console.error("Error fetching response:", error);
-            //     resolve("Error communicating with Gemini API");
-            // }
+            
         });
     });
 }
