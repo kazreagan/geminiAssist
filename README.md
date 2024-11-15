@@ -2,7 +2,7 @@
 Gemini Assist is a Chrome extension designed to provide users with intelligent assistance by connecting directly to the Gemini AI model. Whether you need help with quick answers, insights or specialized knowledge, Gemini Assist offers a convenient way to interact with AI directly from your browser.
 
 ## Installation
-To install Gemini Assist locally
+# To install Gemini Assist locally
     1. clone the repository
         ```bash
         git clone https://github.com/your-username/geminiAssist.git
@@ -28,7 +28,7 @@ To install Gemini Assist locally
     - Gemini API: Integrated to process user queries and generate responses.
 
 ## Configuration
-To connect with the Gemini API, you need an API key.
+# To connect with the Gemini API, you need an API key.
     1. obtain your API key form the `Gemini Developer Portal`
     
     2. Save your in a `.env` file:
@@ -42,7 +42,7 @@ Creating Gemini Assist involved overcoming various challenges in Chrome extensio
 This project taught me the complexities of chrome extension APIs, secure storage handling and API integration. I also refined my debugging and problem-solving skills, particularly in handling CORS errors and network resquests.
 
 ## Future Plans
-In the future, I plan to:
+# In the future, I plan to:
     - Add support for additional data sources
     - Provide more customization options for users
     - Optimizr performance and expand the extension to other browers
