@@ -29,11 +29,11 @@ Gemini Assist is a Chrome extension designed to provide users with intelligent a
 
 ## Configuration
 ### To connect with the Gemini API, you need an API key.
-    1. obtain your API key form the `Gemini Developer Portal`
+1. obtain your API key form the `Gemini Developer Portal`
     
-    2. Save your in a `.env` file:
+2. Save your in a `.env` file:
     
-    3. load the `.env` file securely in `background.js` using chrome's storage API or an environment manager.
+3. load the `.env` file securely in `background.js` using chrome's storage API or an environment manager.
 
 ## Accomplishments
 Creating Gemini Assist involved overcoming various challenges in Chrome extension development, particularly with secure API key management and aynchronous messaging. I am proud of delivering a responsive and effective user experience and ensuring data privacy.
