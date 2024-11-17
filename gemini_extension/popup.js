@@ -6,3 +6,10 @@ document.getElementById("sendBtn").addEventListener("click", () => {
         document.getElementById("responseText").innerText = response.answer || "No response";
     });
 });
+
+fetch('http://localhost:3000/endpoint')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => console.error('Error:', error));

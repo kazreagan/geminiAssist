@@ -3,16 +3,16 @@ Gemini Assist is a Chrome extension designed to provide users with intelligent a
 
 ## Installation
 # To install Gemini Assist locally
-    1. clone the repository
-        ```bash
-        git clone https://github.com/your-username/geminiAssist.git
-        ```
+1. clone the repository
+    ```bash
+    git clone https://github.com/your-username/geminiAssist.git
+    ```
     
-    2. Navigate to the Chrome Extensions page`(chrome://extenions)`
+2. Navigate to the Chrome Extensions page`(chrome://extenions)`
 
-    3. Enable Developer mode.
+3. Enable Developer mode.
 
-    4. Click on Load unpacked and select the `geminiAssit/gemini_extension`
+4. Click on Load unpacked and select the `geminiAssit/gemini_extension`
 
 ## Usage
     1. After laoding the extension, click on the Gemini Assist icon in the Chrome toolbar
